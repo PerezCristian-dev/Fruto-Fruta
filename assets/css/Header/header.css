@@ -1,0 +1,60 @@
+
+.cabecera {
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+
+.menu_list{
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    list-style: none;
+}
+
+
+.menu__link{
+    text-decoration: none;
+    color:black;
+    transform: uppercase;
+}
+
+.menu__link:hover{
+    text-decoration: underline;   
+}
+
+.menu__link:active{
+    color:#333333;
+    font-weight: bold;
+}
+
+.head .headIcon {
+    width: 8rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cabecera{
+        justify-content: space-around;
+        flex-direction: column;
+        align-content: center;
+        margin: 0;
+    
+    }
+
+    .logo{
+        margin: 0;
+    }
+    }   
+
+  
+
+}
+
+
+
